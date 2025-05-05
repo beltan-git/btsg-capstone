@@ -1,0 +1,40 @@
+.input-row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch; /* Forces all inputs and button to same height */
+ }
+ 
+ 
+ .input-row input,
+ .input-row .button {
+  font-size: 30px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 100%;
+ }
+ 
+ 
+ .input-row input {
+  padding: 10px 20px;
+  border: 8px solid #ccc;
+  width: 200px;
+ }
+ 
+ 
+ .input-row .button {
+  background-color: #007bff;
+  color: #007bff;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ 
+ .input-row .button:hover {
+  background-color: #0056b3;
+ }
+ 
